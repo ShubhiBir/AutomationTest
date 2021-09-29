@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-09-29T20:50:11 IST" name="Default suite" finished-at="2021-09-29T20:50:20 IST" duration-ms="8811">
+    <groups>
+    </groups>
+    <test started-at="2021-09-29T20:50:11 IST" name="Default test" finished-at="2021-09-29T20:50:20 IST" duration-ms="8811">
+      <class name="com.testCases.AutomationTest">
+        <test-method is-config="true" signature="preCondition()[pri:0, instance:com.testCases.AutomationTest@358c99f5]" started-at="2021-09-29T20:50:11 IST" name="preCondition" finished-at="2021-09-29T20:50:14 IST" duration-ms="2898" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preCondition -->
+        <test-method signature="searchFlights()[pri:0, instance:com.testCases.AutomationTest@358c99f5]" started-at="2021-09-29T20:50:14 IST" name="searchFlights" finished-at="2021-09-29T20:50:17 IST" duration-ms="2764" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchFlights -->
+        <test-method is-config="true" signature="postCondition()[pri:0, instance:com.testCases.AutomationTest@358c99f5]" started-at="2021-09-29T20:50:17 IST" name="postCondition" finished-at="2021-09-29T20:50:17 IST" duration-ms="85" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postCondition -->
+        <test-method is-config="true" signature="preCondition()[pri:0, instance:com.testCases.AutomationTest@358c99f5]" started-at="2021-09-29T20:50:17 IST" name="preCondition" finished-at="2021-09-29T20:50:20 IST" duration-ms="2778" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preCondition -->
+        <test-method signature="fetchDestinationCities()[pri:1, instance:com.testCases.AutomationTest@358c99f5]" started-at="2021-09-29T20:50:20 IST" name="fetchDestinationCities" finished-at="2021-09-29T20:50:20 IST" duration-ms="165" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fetchDestinationCities -->
+        <test-method is-config="true" signature="postCondition()[pri:0, instance:com.testCases.AutomationTest@358c99f5]" started-at="2021-09-29T20:50:20 IST" name="postCondition" finished-at="2021-09-29T20:50:20 IST" duration-ms="84" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postCondition -->
+      </class> <!-- com.testCases.AutomationTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
