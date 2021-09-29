@@ -32,6 +32,12 @@ public class WelcomePage {
 		List<WebElement> cities = dest.getOptions(); 
 		return cities;
 	}
+	public List<WebElement> getDepartureCities() {
+		WebElement DepartureCity=driver.findElement(By.name("fromPort"));
+		Select dep=new Select(DepartureCity);
+		List<WebElement> cities = dep.getOptions(); 
+		return cities;
+	}
 	
 	public void searchFlights() {
 		driver.findElement(By.xpath("//input[@type='submit']")).click();

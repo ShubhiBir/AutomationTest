@@ -26,8 +26,16 @@ public class AutomationTest extends BaseTest {
   @Test(priority =1)
   public void fetchDestinationCities() {
 	  WelcomePage welcomePage =new WelcomePage(driver);
-	  welcomePage.findDeparture();
 	  List<WebElement> cities=welcomePage.getDestinationCities();
+	  for(WebElement element:cities)
+	  {
+		  System.out.println(element.getText());
+	  }
+  }
+  @Test(priority =2)
+  public void fetchDepartureCities() {
+	  WelcomePage welcomePage =new WelcomePage(driver);
+	  List<WebElement> cities=welcomePage.getDepartureCities();
 	  for(WebElement element:cities)
 	  {
 		  System.out.println(element.getText());
